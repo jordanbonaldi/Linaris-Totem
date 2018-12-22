@@ -1,0 +1,17 @@
+name: Totem
+version: 0.5
+main: net.linaris.Totem.Totem
+depend: [LinarisKits]
+author: Skelerex
+commands:
+  totem:
+    usage: /<command> <args>
+    description: settings of totem (admin command)
+  all:
+    usage: /<command> <message>
+    aliases: [a]
+    description: global channel
+  message:
+    usage: /<command> <player> <message>
+    aliases: [msg]
+    description: send message to a player
